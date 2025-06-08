@@ -113,11 +113,7 @@ const ContactSection: React.FC = () => {
             </form>
 
             {/* Follow me icons below form */}
-            <div className=" mt-1 sm:mt-0">
-              <h1 className=" text-3xl font-semibold text-primary">
-                Follow me on...
-              </h1>
-            </div>
+            
             <div className="flex gap-6 justify-center md:justify-start mt-8 text-3xl text-primary">
               <a
                 href="https://youtube.com/@parkour_by_animesh?si=ZTEpZ5oYgpz1AS70"
