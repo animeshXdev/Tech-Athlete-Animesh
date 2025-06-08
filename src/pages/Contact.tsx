@@ -113,7 +113,7 @@ const ContactSection: React.FC = () => {
             </form>
 
             {/* Follow me icons below form */}
-            <div className=" mt-5 sm:mt-0">
+            <div className=" mt-3 sm:mt-0">
               <h1 className=" text-3xl font-semibold text-primary">
                 Follow me on...
               </h1>
