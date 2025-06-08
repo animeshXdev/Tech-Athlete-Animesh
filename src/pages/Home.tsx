@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, type Transition } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import BackToTop from "../components/BackToTop";
 import svgImg from "../assets/undraw_code-thinking_0vf2.svg";
@@ -18,7 +18,7 @@ import {
 } from "react-icons/fi";
 
 
-const iconMotion = {
+const iconMotion: Transition = {
   initial: { scale: 1, y: 0, rotate: 0 },
   animate: {
     y: [0, -6, 0, 6, 0],
