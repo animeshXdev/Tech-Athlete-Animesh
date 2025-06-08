@@ -52,10 +52,10 @@ const ContactSection: React.FC = () => {
       <section className="max-w-7xl mx-auto p-6">
         <Toaster position="top-right" reverseOrder={false} />
 
-        <div className="flex flex-col md:flex-row md:gap-10 h-[700px]">
+        <div className=" rounded-2xl  flex flex-col md:flex-row md:gap-10 h-[700px]">
           {/* Left side: form + follow me icons below */}
           <motion.div
-            className="flex flex-col flex-1 bg-white shadow-lg rounded-lg p-8"
+            className=" flex flex-col flex-1  shadow-lg rounded-lg p-8"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -113,7 +113,7 @@ const ContactSection: React.FC = () => {
             </form>
 
             {/* Follow me icons below form */}
-            <div className=" mt-3 sm:mt-0">
+            <div className=" mt-1 sm:mt-0">
               <h1 className=" text-3xl font-semibold text-primary">
                 Follow me on...
               </h1>
