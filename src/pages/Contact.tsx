@@ -113,8 +113,8 @@ const ContactSection: React.FC = () => {
             </form>
 
             {/* Follow me icons below form */}
-            <div>
-              <h1 className="text-3xl font-semibold text-primary">
+            <div className=" mt-5 sm:mt-0">
+              <h1 className=" text-3xl font-semibold text-primary">
                 Follow me on...
               </h1>
             </div>
@@ -151,7 +151,7 @@ const ContactSection: React.FC = () => {
 
           {/* Right side: Map only */}
           <motion.div
-            className="flex-1 rounded-lg overflow-hidden shadow-lg h-[300px] md:h-auto"
+            className="hidden sm:block flex-1 rounded-lg overflow-hidden shadow-lg h-[300px] md:h-auto"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
